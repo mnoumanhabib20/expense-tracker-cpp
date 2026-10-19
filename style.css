@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.card {
+  flex: 1;
+  min-width: 110px;
+  background: #e8f0fe;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.card p {
+  margin: 6px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a56db;
+}
+
+.card.total {
+  background: #1a56db;
+}
+
+.card.total h3,
+.card.total p {
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover td {
+  background: #f9f9f9;
+}
+
+.empty {
+  text-align: center;
+  color: #888;
+  margin-top: 15px;
+}
